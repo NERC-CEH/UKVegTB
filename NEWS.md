@@ -1,3 +1,10 @@
+# UKVegTB 0.1.3 (2025-12-08)
+*   UKSI Version: 20250703a
+*   Modifications: NA
+*   Fixes: NA
+*   New Features:
+      - New objects: `UKVegTB::phylo_tree` and `UKVegTB::phylo_taxa_lookup`.
+
 # UKVegTB 0.1.2 (2025-07-27)
 
 *   UKSI Version: 20250703a

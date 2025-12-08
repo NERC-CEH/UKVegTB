@@ -8,7 +8,7 @@
 A data frame with 67555 rows and 13 columns, the definitions of which are:
 \describe{
 \item{informal_group}{The informal group of the taxon.}
-\item{taxon_name}{The taxon name of the synonymous taxon concept associated with the reccomended_taxon_name.}
+\item{taxon_name}{The taxon name of the synonymous taxon concept associated with the recommended_taxon_name.}
 \item{rank}{The taxonomic rank of the taxon.}
 \item{qualifier}{The qualifier of the taxon.}
 \item{authority}{The authority responsible for the description of the taxon.}
@@ -26,7 +26,7 @@ A data frame with 67555 rows and 13 columns, the definitions of which are:
 taxa_lookup
 }
 \description{
-A lookup between the reccomended taxa as present in \code{UKVegTB::taxonomic_backbone} and associated synonymous taxon concepts present in the UKSI.
+A lookup between the recommended taxa as present in \code{UKVegTB::taxonomic_backbone} and associated synonymous taxon concepts present in the UKSI.
 }
 \details{
 \code{taxa_lookup}
