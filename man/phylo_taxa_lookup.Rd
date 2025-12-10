@@ -5,12 +5,14 @@
 \alias{phylo_taxa_lookup}
 \title{Taxa lookup}
 \format{
-A data frame with 23477 rows and 4 columns, the definitions of which are:
+A data frame with 23477 rows and 6 columns, the definitions of which are:
 \describe{
 \item{TVK}{The UKSI taxon version key associated with the taxon_name.}
 \item{taxon_name}{The recommended taxon name as present in the taxon_name column of \code{UKVegTB::taxonomic_backbone} and the recommended_taxon_name column of \code{UKVegTB::taxa_lookup}.}
-\item{phylo_taxon_name}{The taxon names associated with the taxon_name column names as present in \code{UKVegTB::phylo_tree}.}
-\item{phylo}{A boolean representing whether each taxon is present in the \code{UKVegTB::phylo_tree} object.}
+\item{search_name}{The taxon name used to search for OTL data, and as present in the \code{UKVegTB::phlyo_tree} object.}
+\item{matched_name}{The OTL name matched to the search_name.}
+\item{phylo}{A boolean representing whether each taxon is present in the \code{UKVegTB::phlyo_tree} object.}
+\item{ottid}{The OTL id associated with the matched name.}
 }
 }
 \usage{

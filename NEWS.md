@@ -1,3 +1,8 @@
+# UKVegTB 0.1.4 (2025-12-10)
+
+* Adding branch lengths to `UKVegTB::phylo_tree`.
+* Ensuring that the matched OTL name and OTL OTT codes are included in `UKVegTB::phylo_taxa_lookup`.
+
 # UKVegTB 0.1.3 (2025-12-08)
 *   UKSI Version: 20250703a
 *   Modifications: NA

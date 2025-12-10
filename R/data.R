@@ -20,8 +20,10 @@
 #' \describe{
 #'   \item{TVK}{The UKSI taxon version key associated with the taxon_name.}
 #'   \item{taxon_name}{The recommended taxon name as present in the taxon_name column of `UKVegTB::taxonomic_backbone` and the recommended_taxon_name column of `UKVegTB::taxa_lookup`.}
-#'   \item{phylo_taxon_name}{The taxon names associated with the taxon_name column names as present in `UKVegTB::phylo_tree`.}
-#'   \item{phylo}{A boolean representing whether each taxon is present in the `UKVegTB::phylo_tree` object.}
+#'   \item{search_name}{The taxon name used to search for OTL data, and as present in the `UKVegTB::phlyo_tree` object.}
+#'   \item{matched_name}{The OTL name matched to the search_name.}
+#'   \item{phylo}{A boolean representing whether each taxon is present in the `UKVegTB::phlyo_tree` object.}
+#'   \item{ottid}{The OTL id associated with the matched name.}
 #' }
 "phylo_taxa_lookup"
 
