@@ -1,3 +1,7 @@
+# UKVegTB 0.1.5 (2025-12-10)
+
+* Ensuring no quotation marks are in the `UKVegTB::phylo_tree` tip labels.
+
 # UKVegTB 0.1.4 (2025-12-10)
 
 * Adding branch lengths to `UKVegTB::phylo_tree`.

@@ -1,6 +1,6 @@
 Package: UKVegTB
 Title: UK Vegetation Science Taxonomic Backbone
-Version: 0.1.4
+Version: 0.1.5
 Date: 2025-12-10
 Authors@R: c(person(given = "Zeke",
                     family = "Marshall",
