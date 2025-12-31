@@ -56,7 +56,6 @@
 #' The taxonomic backbone used in RMAVIS. Formed by selecting the recommended taxa from the following informal groups:
 #' "alga", "chromist", "clubmoss", "conifer", "fern", "flowering plant", "ginkgo", "hornwort", "horsetail", "lichen", "liverwort", "moss", "quillwort", and "stonewort"
 #' in version 20250703a of the UKSI, then retrieving the parent taxa.
-#' 
 #'
 #' \code{taxonomic_backbone} 
 #'
@@ -69,45 +68,14 @@
 #'   \item{authority}{}
 #'   \item{full_name}{}
 #'   \item{informal_group}{}
-#'   \item{Unranked}{}
 #'   \item{Domain}{}
 #'   \item{Kingdom}{}
-#'   \item{Subkingdom}{}
-#'   \item{Infrakingdom}{}
 #'   \item{Division}{}
-#'   \item{Subdivision}{}
 #'   \item{Phylum}{}
-#'   \item{Subphylum}{}
-#'   \item{Infraphylum}{}
-#'   \item{Superclass}{}
 #'   \item{Class}{}
-#'   \item{Subclass}{}
-#'   \item{Superorder}{}
 #'   \item{Order}{}
-#'   \item{Suborder}{}
-#'   \item{Superfamily}{}
 #'   \item{Family}{}
 #'   \item{Subfamily}{}
-#'   \item{Family aggregate}{}
-#'   \item{Tribe}{}
 #'   \item{Genus}{}
-#'   \item{Genus aggregate}{}
-#'   \item{Subgenus}{}
-#'   \item{Section}{}
-#'   \item{Subsection}{}
-#'   \item{Species group}{}
-#'   \item{Series}{}
-#'   \item{Species aggregate}{}
-#'   \item{Species sensu lato}{}
-#'   \item{Generic hybrid}{}
-#'   \item{Species}{}
-#'   \item{Species pro parte}{}
-#'   \item{Species hybrid}{}
-#'   \item{Subspecies}{}
-#'   \item{Subspecies hybrid}{}
-#'   \item{Subspecies aggregate}{}
-#'   \item{Nothosubspecies}{}
-#'   \item{Microspecies}{}
-#'   \item{Cultivar}{}
 #' }
 "taxonomic_backbone"

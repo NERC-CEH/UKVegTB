@@ -5,7 +5,7 @@
 \alias{phylo_taxa_lookup}
 \title{Taxa lookup}
 \format{
-A data frame with 23477 rows and 6 columns, the definitions of which are:
+A data frame with 17833 rows and 6 columns, the definitions of which are:
 \describe{
 \item{TVK}{The UKSI taxon version key associated with the taxon_name.}
 \item{taxon_name}{The recommended taxon name as present in the taxon_name column of \code{UKVegTB::taxonomic_backbone} and the recommended_taxon_name column of \code{UKVegTB::taxa_lookup}.}
@@ -20,7 +20,7 @@ phylo_taxa_lookup
 }
 \description{
 A lookup between the recommended taxa as present in \code{UKVegTB::taxonomic_backbone} and the taxon names present in the Newick \code{UKVegTB::phylo_tree} phylogenetic tree object.
-At present 15246 taxa out of 23477 are present in the tree.
+At present 11849 taxa out of 17833 are present in the tree.
 The phylo_taxon_name are produced by reducing varieties and subspecies to the species rank, and removing strata and ecological group suffixes.
 }
 \details{

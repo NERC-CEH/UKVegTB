@@ -5,7 +5,7 @@
 \alias{taxonomic_backbone}
 \title{Taxonomic Backbone}
 \format{
-A data frame with 23477 rows and 55 columns, the definitions of which are:
+A data frame with 17833 rows and 16 columns, the definitions of which are:
 \describe{
 \item{TVK}{}
 \item{taxon_name}{}
@@ -14,46 +14,15 @@ A data frame with 23477 rows and 55 columns, the definitions of which are:
 \item{authority}{}
 \item{full_name}{}
 \item{informal_group}{}
-\item{Unranked}{}
 \item{Domain}{}
 \item{Kingdom}{}
-\item{Subkingdom}{}
-\item{Infrakingdom}{}
 \item{Division}{}
-\item{Subdivision}{}
 \item{Phylum}{}
-\item{Subphylum}{}
-\item{Infraphylum}{}
-\item{Superclass}{}
 \item{Class}{}
-\item{Subclass}{}
-\item{Superorder}{}
 \item{Order}{}
-\item{Suborder}{}
-\item{Superfamily}{}
 \item{Family}{}
 \item{Subfamily}{}
-\item{Family aggregate}{}
-\item{Tribe}{}
 \item{Genus}{}
-\item{Genus aggregate}{}
-\item{Subgenus}{}
-\item{Section}{}
-\item{Subsection}{}
-\item{Species group}{}
-\item{Series}{}
-\item{Species aggregate}{}
-\item{Species sensu lato}{}
-\item{Generic hybrid}{}
-\item{Species}{}
-\item{Species pro parte}{}
-\item{Species hybrid}{}
-\item{Subspecies}{}
-\item{Subspecies hybrid}{}
-\item{Subspecies aggregate}{}
-\item{Nothosubspecies}{}
-\item{Microspecies}{}
-\item{Cultivar}{}
 }
 }
 \usage{

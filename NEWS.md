@@ -1,3 +1,8 @@
+# UKVegTB 0.1.6 (2025-12-31)
+
+* Condensing `UKVegTb::taxa_lookup` and `UKVegTB::taxonomic_backbone`.
+* Filling missing higher taxa in `UKVegTB::taxonomic_backbone`.
+
 # UKVegTB 0.1.5 (2025-12-10)
 
 * Ensuring no quotation marks are in the `UKVegTB::phylo_tree` tip labels.

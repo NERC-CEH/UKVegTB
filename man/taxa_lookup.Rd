@@ -5,7 +5,7 @@
 \alias{taxa_lookup}
 \title{Taxa lookup}
 \format{
-A data frame with 67555 rows and 13 columns, the definitions of which are:
+A data frame with 55622 rows and 13 columns, the definitions of which are:
 \describe{
 \item{informal_group}{The informal group of the taxon.}
 \item{taxon_name}{The taxon name of the synonymous taxon concept associated with the recommended_taxon_name.}
