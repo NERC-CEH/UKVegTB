@@ -5,7 +5,7 @@
 \alias{taxonomic_backbone}
 \title{Taxonomic Backbone}
 \format{
-A data frame with 17833 rows and 16 columns, the definitions of which are:
+A data frame with 22148 rows and 16 columns, the definitions of which are:
 \describe{
 \item{TVK}{}
 \item{taxon_name}{}

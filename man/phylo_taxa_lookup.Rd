@@ -20,7 +20,7 @@ phylo_taxa_lookup
 }
 \description{
 A lookup between the recommended taxa as present in \code{UKVegTB::taxonomic_backbone} and the taxon names present in the Newick \code{UKVegTB::phylo_tree} phylogenetic tree object.
-At present 11849 taxa out of 17833 are present in the tree.
+At present 11849 taxa out of 22148 are present in the tree.
 The phylo_taxon_name are produced by reducing varieties and subspecies to the species rank, and removing strata and ecological group suffixes.
 }
 \details{

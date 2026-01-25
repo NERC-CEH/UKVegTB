@@ -7,8 +7,8 @@
 
 <!-- badges: end -->
 
-UKVegTB is a lightweight R package containing a taxonomic backbone and
-associated data for photoautotrophic taxa present in the UKSI.
+A lightweight taxonomic backbone based on the UKSI, designed for use in
+vegetation science.
 
 ## Installation
 

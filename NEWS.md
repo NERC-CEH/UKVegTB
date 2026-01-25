@@ -1,3 +1,7 @@
+# UKVegTB 0.1.7 (2026-01-25)
+
+* Ensuring higher taxon ranks are present in `UKVegTB::taxonomic_backbone`.
+
 # UKVegTB 0.1.6 (2025-12-31)
 
 * Condensing `UKVegTb::taxa_lookup` and `UKVegTB::taxonomic_backbone`.
