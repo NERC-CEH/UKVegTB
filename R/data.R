@@ -79,3 +79,23 @@
 #'   \item{Genus}{}
 #' }
 "taxonomic_backbone"
+
+#' Plant functional traits
+#'
+#' Selected plant functional traits derived from Weigelt et al (2020) and Henniges et al (2022).
+#'
+#' \code{traits} 
+#'
+#' @format A data frame with `r nrow(UKVegTB::traits)` rows and `r ncol(UKVegTB::traits)` columns, the definitions of which are:
+#' \describe{
+#'   \item{taxon_name}{The taxon name of the synonymous taxon concept associated with the recommended_taxon_name.}
+#'   \item{recommended_taxon_name}{The recommended taxon name for the taxon concept in the taxon_name column.}
+#'   \item{recommended_TVK}{The UKSI taxon version key associated with the recommended_taxon_name.}
+#'   \item{trait_name}{The name of the trait.}
+#'   \item{trait_value}{The value of the trait.}
+#'   \item{source}{The source of the trait value.}
+#' }
+#' 
+#' @references Henniges, M. C., Powell, R. F., Mian, S., Stace, C. A., Walker, K. J., Gornall, R. J., Christenhusz, M. J. M., Brown, M. R., Twyford, A. D., Hollingsworth, P. M., Jones, L., de Vere, N., Antonelli, A., Leitch, A. R., & Leitch, I. J. (2022). A taxonomic, genetic and ecological data resource for the vascular plants of Britain and Ireland. Scientific Data, 9(1), 1. https://doi.org/10.1038/s41597-021-01104-5
+#'             Weigelt, P., König, C., & Kreft, H. (2020). GIFT – A Global Inventory of Floras and Traits for macroecology and biogeography. Journal of Biogeography, 47(1), 16–43. https://doi.org/10.1111/jbi.13623
+"traits"

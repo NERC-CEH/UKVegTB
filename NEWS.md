@@ -1,3 +1,7 @@
+# UKVegTB 0.1.8 (2026-02-28)
+
+* Adding a prototypical object containing plant functional traits `UKVegTB::traits`.
+
 # UKVegTB 0.1.7 (2026-01-25)
 
 * Ensuring higher taxon ranks are present in `UKVegTB::taxonomic_backbone`.
