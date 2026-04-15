@@ -99,3 +99,22 @@
 #' @references Henniges, M. C., Powell, R. F., Mian, S., Stace, C. A., Walker, K. J., Gornall, R. J., Christenhusz, M. J. M., Brown, M. R., Twyford, A. D., Hollingsworth, P. M., Jones, L., de Vere, N., Antonelli, A., Leitch, A. R., & Leitch, I. J. (2022). A taxonomic, genetic and ecological data resource for the vascular plants of Britain and Ireland. Scientific Data, 9(1), 1. https://doi.org/10.1038/s41597-021-01104-5
 #'             Weigelt, P., König, C., & Kreft, H. (2020). GIFT – A Global Inventory of Floras and Traits for macroecology and biogeography. Journal of Biogeography, 47(1), 16–43. https://doi.org/10.1111/jbi.13623
 "traits"
+
+#' Ecological Indicator Values for Europe
+#'
+#' Ecological Indicator Values for Europe (EIVE) 1.0 (Dengler et al., ) values for taxa present in the UKSI.
+#'
+#' \code{eive} 
+#'
+#' @format A data frame with `r nrow(UKVegTB::eive)` rows and `r ncol(UKVegTB::eive)` columns, the definitions of which are:
+#' \describe{
+#'   \item{taxon_name}{The taxon name of the synonymous taxon concept associated with the recommended_taxon_name.}
+#'   \item{recommended_taxon_name}{The recommended taxon name for the taxon concept in the taxon_name column.}
+#'   \item{recommended_TVK}{The UKSI taxon version key associated with the recommended_taxon_name.}
+#'   \item{metric}{One of "optima" or "width".}
+#'   \item{variable}{The indicator value variable, one of: "L", "M", "N", "R", or "T".}
+#'   \item{value}{The source of the trait value.}
+#' }
+#' 
+#' @references Dengler, J., Jansen, F., Chusova, O., Hüllbusch, E., Nobis, M. P., Meerbeek, K. V., Axmanová, I., Bruun, H. H., Chytrý, M., Guarino, R., Karrer, G., Moeys, K., Raus, T., Steinbauer, M. J., Tichý, L., Tyler, T., Batsatsashvili, K., Bita-Nicolae, C., Didukh, Y., … Gillet, F. (2023). Ecological Indicator Values for Europe (EIVE) 1.0. Vegetation Classification and Survey, 4, 7–29. https://doi.org/10.3897/VCS.98324
+"eive"

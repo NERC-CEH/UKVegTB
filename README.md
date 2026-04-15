@@ -5,6 +5,7 @@
 
 <!-- badges: start -->
 
+![version](https://img.shields.io/badge/version-0.1.9-blue)
 <!-- badges: end -->
 
 A lightweight taxonomic backbone based on the UKSI, designed for use in

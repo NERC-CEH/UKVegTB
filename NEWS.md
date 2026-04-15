@@ -1,3 +1,7 @@
+# UKVegTB 0.1.9 (2026-04-15)
+
+* Adding an object which contains EIVE 1.0 values for taxa present in the UKSI `UKVegTB::eive`.
+
 # UKVegTB 0.1.8 (2026-02-28)
 
 * Adding a prototypical object containing plant functional traits `UKVegTB::traits`.

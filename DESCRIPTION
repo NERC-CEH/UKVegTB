@@ -1,7 +1,7 @@
 Package: UKVegTB
 Title: UK Vegetation Science Taxonomic Backbone
-Version: 0.1.8
-Date: 2026-02-28
+Version: 0.1.9
+Date: 2026-04-15
 Authors@R: c(person(given = "Zeke",
                     family = "Marshall",
                     role = c("aut", "cre"),
@@ -13,7 +13,7 @@ Description: A lightweight taxonomic backbone based on the UKSI, designed for us
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.1
+RoxygenNote: 7.3.3
 LazyDataCompression: xz
 URL: https://github.com/NERC-CEH/UKVegTB
 BugReports: https://github.com/NERC-CEH/UKVegTB/issues
